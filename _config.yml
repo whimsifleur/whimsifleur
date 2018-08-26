@@ -1,0 +1,16 @@
+# Site settings
+title: whimsifleur
+email: aileen@whimsifleur.com
+whatsapp: aileen@whimsifleur
+
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.whimsifleur.com" # the base hostname & protocol for your site
+
+instagram_username: whimsifleur
+whatsapp_username: 60126289681
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
