@@ -120,7 +120,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("../img/sakura.jpg");
+  background-image: url("../img/top.jpg");
   text-align: center;
   color: white; }
   header .header-content {
@@ -160,7 +160,9 @@ header {
             margin-right: auto; } }
 
 .section-heading {
-  margin-top: 0; }
+  margin-top: 0;
+  font-family: 'Homemade Apple', serif;
+  font-weight: bold; }
 
 .service-box {
   max-width: 400px;
