@@ -102,16 +102,17 @@
         <div class="header-content-inner">
             <h1>whimsifleur</h1>
             <hr>
-            <p><div style="font-family: 'Homemade Apple', serif;font-size: 28px;font-weight:bold;">Bouquets made with a huge dose of t.l.c., and a touch of whimsy.
-            <br/>For the unconventional bride.</p></div>
-            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            <a href="#recentworks" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
         </div>
     </div>
 </header>
 
   <section class="no-padding" id="recentworks">
-</br>
+        <br/><br/><br/>
         <div class="container-fluid">
+                <div style="text-align: center">
+                <p><div style="font-family: 'Homemade Apple', serif;font-size: 28px;font-weight:bold;">Bouquets made with a huge dose of t.l.c., and a touch of whimsy.
+                                        <br/>For the unconventional bride.</p></div></div>
             <div class="row">
                     <a href="#" class="portfolio-box">
                             <div id="instafeed">
@@ -178,11 +179,21 @@
                 <hr class="primary">
                 <p>Now that you have browsed through our site, and presumably you like what you see (yay!), you are ready to talk to us!</p>
                 <p>Drop us a quick note at <a href="mailto:aileen@whimsifleur.com">aileen@whimsifleur.com</a>, sharing with us the following information to facilitate our journey to come up with a bouquet you'll love:</p>
+                <form name="sentMessage" id="contactForm" action="https://formspree.io/aileen@whimsifleur.com" method="POST" novalidate>
+                    <div class="text-center">
+                        <input type="text" name="name" size="32" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name."><br/><br/>
+                        <input type="email" name="_replyto" size="32" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address."><br/><br/>
+                        <input type="tel" name="phone" size="32" placeholder="Your Phone (optional)" id="phone" required data-validation-required-message="Please enter your phone number (optional)."><br/><br/>
+                        <textarea name="message" rows="10" cols="60" placeholder="Your message *
+- Date you need your blooms: 
+- Occasion: (garden wedding, church wedding, pre-wedding shoot...) 
+- Floral items: (bridal bouquet, bridesmaid bouquet...) 
+- Colour theme: (bold & bright, pastel, shades of red...)" id="message" required data-validation-required-message="Please enter a message."></textarea><br/><br/>
+<button type="submit" value="Send" class="btn btn-primary btn-xl">Send Message</button>
+
+                    </div>
+                </form>
                 <p>
-                <br/>- Date you need your blooms:
-                <br/>- Occasion: (garden wedding, church wedding, pre-wedding shoot...)
-                <br/>- Floral items: (bridal bouquet, bridesmaid bouquet...) 
-                <br/>- Colour theme: (bold & bright, pastel, shades of red...)</p>
                 <p>Send us some reference pictures so that we know the style you like, and do share with us if you have any particular blooms you want to incorporate in your bouquet.</p>
                 <p>Talk to you soon!</p>
                 <br/>
